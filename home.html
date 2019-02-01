@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>you</title>
+  </head>
+  <body>
+
+    <!--Nav
+    ==============================================-->
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hotsection">Hot Products</a></li>
+        <li><a href="">View By Country</a></li>
+        <li><a href="surpriseme.html">Surprise me!</a></li>
+      </ul>
+    </nav>
+
+    <!--Sticky Bar
+    ==============================================-->
+    <section>
+    <div class="sticky-bar">
+        <button type="button" class="nav-button sticky enlarge-button">
+          <svg class="menu-icon"
+            viewBox="0 0 48.54 42.71">
+            <g>
+              <rect class="cls-1" x="0.5" y="0.5" width="47.54" height="4.82"/>
+              <rect class="cls-1" x="0.5" y="17.97" width="47.54" height="4.82"/>
+              <rect class="cls-1" x="0.5" y="37.39" width="47.54" height="4.82"/>
+            </g>
+          </svg>
+          <svg class="close-icon"
+          viewBox="0 0 49.41 42.77">
+            <g>
+              <rect class="cls-1" x="-4.63" y="19" width="58.67" height="4.76" transform="translate(-7.96 20.88) rotate(-40)"/>
+              <rect class="cls-1" x="22.33" y="-7.95" width="4.76" height="58.67" transform="translate(-7.56 26.56) rotate(-50)"/>
+            </g>
+          </svg>
+        </button>
+
+        <!--Search button-->
+        <button type="button" class="search-button sticky enlarge-button">
+          <svg class="search-icon"
+          viewBox="0 0 38.05 42.71">
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+              <path class="cls-1" d="M13.59,2A11.59,11.59,0,1,1,2,13.59,11.6,11.6,0,0,1,13.59,2m0-2A13.59,13.59,0,1,0,27.18,13.59,13.58,13.58,0,0,0,13.59,0Z"/>
+              <rect class="cls-1" x="27.5" y="19.33" width="2.87" height="24.24" transform="translate(-13.07 23.6) rotate(-36.8)"/>
+              <path class="cls-1" d="M22.72,21.58,36.65,40.19l-1.5,1.12L21.22,22.71l1.5-1.13m.2-1.4-3.1,2.32L35,42.71l3.1-2.32L22.92,20.18Z"/>
+              </g>
+            </g>
+          </svg>
+        </button>
+        <input class="searchForm" type="text" name="search" placeholder="">
+
+          <button type="button" class="cart-button sticky enlarge-button">
+            <svg class="cart-icon"
+            viewBox="0 0 69.89 46.6">
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                  <polygon class="cls-1" points="56.85 10.96 56.85 14.14 46.2 37.46 12.24 37.46 0.47 11.68 0 12.7 0 10.96 56.85 10.96"/>
+                  <polygon class="cls-1" points="63.66 2.07 60.7 0.36 53.73 12.39 56.69 14.1 63.66 2.07"/>
+                  <rect class="cls-1" x="60.89" width="9" height="3.45"/>
+                  <ellipse class="cls-1" cx="14.91" cy="42.03" rx="4.66" ry="4.57"/>
+                  <ellipse class="cls-1" cx="42.87" cy="42.03" rx="4.66" ry="4.57"/>
+                </g>
+              </g>
+            </svg>
+          </button>
+
+          <button type="button" class="login-button sticky enlarge-button">
+            <svg class="login-icon"
+            viewBox="0 0 29.12 42.71">
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_1-2" data-name="Layer 1">
+                  <polygon class="cls-1" points="14.56 12.33 0 42.71 29.12 42.71 14.56 12.33"/>
+                  <ellipse class="cls-1" cx="14.94" cy="12.32" rx="12.25" ry="12.61" transform="translate(-2.44 20.84) rotate(-65.63)"/>
+                </g>
+              </g>
+            </svg>
+          </button>
+
+      </div> <!-- /sticky-bar-->
+    </section>
+
+    <div class="container-all-except-nav">
+
+      <!--Hero
+      ==============================================-->
+      <section id="home">
+        <div class="hero"> <!--not sure if i need?-->
+          <h1 class="hero-title">you</h1>
+
+            <div class="wrapper">
+            <button class="down-button enlarge-button" value="about" onClick="smoothScrollTo(value)">
+              <svg class="down-icon"
+              viewBox="0 0 54.36 27.78">
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <path class="cls-1" d="M22.46,23.76,50,1.89a2.58,2.58,0,0,1,3.42.23l.4.42a2.08,2.08,0,0,1-.25,3.13L26,27.54Z"/>
+                    <path class="cls-1" d="M26.44,27.78.71,4.19A2.1,2.1,0,0,1,.71,1L1.14.65a2.58,2.58,0,0,1,3.43,0L30.3,24.24Z"/>
+                  </g>
+                </g>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!--About and slideshow
+      ==============================================-->
+      <section id="about">
+        <div class="container-about-slideshow">
+
+          <!--About
+          ==================================-->
+          <div class="about">
+            <h1 class="section-title">About</h1>
+            <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.<br><br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+
+          <!--slideshow
+          ==================================-->
+          <div class="slideshow-container"><!--contains the arrows etc.-->
+              <div class="gallery-container">
+                <div style="display: block;" class="image-holder fadeimg">
+                  <img class="slide-show-pics" src="imgs/slideshow-01.jpg" alt="Photo 1">
+                </div>
+                <div class="image-holder fadeimg">
+                  <img class="slide-show-pics" src="imgs/slideshow-02.jpg" alt="Photo 2">
+                </div>
+                <div class="image-holder fadeimg">
+                  <img class="slide-show-pics" src="imgs/slideshow-03.jpg" alt="Photo 3">
+                </div>
+                <div class="image-holder fadeimg">
+                  <img class="slide-show-pics" src="imgs/slideshow-04.jpg" alt="Photo 4">
+                </div>
+
+                <button class="left-button slide-arrow"  onClick="plusIndex(-1)">
+                    <svg class="left-icon"
+                    viewBox="0 0 54.36 27.78">
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                          <path class="cls-1" d="M22.46,23.76,50,1.89a2.58,2.58,0,0,1,3.42.23l.4.42a2.08,2.08,0,0,1-.25,3.13L26,27.54Z"/>
+                          <path class="cls-1" d="M26.44,27.78.71,4.19A2.1,2.1,0,0,1,.71,1L1.14.65a2.58,2.58,0,0,1,3.43,0L30.3,24.24Z"/>
+                        </g>
+                      </g>
+                    </svg>
+                </button>
+                <button class="right-button slide-arrow" onClick="plusIndex(+1)">
+                    <svg class="right-icon"
+                    viewBox="0 0 54.36 27.78">
+                      <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                          <path class="cls-1" d="M22.46,23.76,50,1.89a2.58,2.58,0,0,1,3.42.23l.4.42a2.08,2.08,0,0,1-.25,3.13L26,27.54Z"/>
+                          <path class="cls-1" d="M26.44,27.78.71,4.19A2.1,2.1,0,0,1,.71,1L1.14.65a2.58,2.58,0,0,1,3.43,0L30.3,24.24Z"/>
+                        </g>
+                      </g>
+                    </svg>
+                </button>
+
+                <div class="dot-set">
+                  <span class="dots" onClick="currentSlide(1)"></span>
+                  <span class="dots" onClick="currentSlide(2)"></span>
+                  <span class="dots" onClick="currentSlide(3)"></span>
+                  <span class="dots" onClick="currentSlide(4)"></span>
+              </div>
+            </div>
+            </div> <!-- /slideshow-container -->
+
+
+        <a title="hotsection" onClick="smoothScrollTo(title)" class="square-button">Check out the hottest products!</a>
+
+      </div>
+
+      </section>
+
+      <!--Hot Products
+      ==============================================-->
+      <section id="hotsection">
+        <div class="hot-products">
+          <h1 class="section-title">Hot Products</h1>
+
+          <div class="hot-row"> <!-- each row has four figures-------------->
+            <!--figure 01----------------------->
+            <figure class="hot-items">
+              <img class="hot-images" src="imgs/waterfall-01.jpg" alt="waterfall-01">
+              <figcaption class="hot-desc">
+                <h3 class="hot-names">Modern Renaissance Palette</h3>
+                <p class="hot-prices">$74.99</p>
+                <a class="square-button add-to-cart" href="">Add to cart</a>
+              </figcaption>
+            </figure> <!-- /figure 01 -------------->
+            <!--figure 02----------------------->
+            <figure class="hot-items">
+              <img class="hot-images" src="imgs/waterfall-02.jpg" alt="waterfall-02">
+              <figcaption class="hot-desc">
+                <h3 class="hot-names">100% Pure Powder</h3>
+                <p class="hot-prices">$24.49</p>
+                <a class="square-button add-to-cart" href="">Add to cart</a>
+              </figcaption>
+            </figure> <!-- /figure 02 -------------->
+            <!--figure 03----------------------->
+            <figure class="hot-items">
+              <img class="hot-images" src="imgs/waterfall-03.jpg" alt="waterfall-03">
+              <figcaption class="hot-desc">
+                <h3 class="hot-names">Kylie Lip Kit - Tuttie</h3>
+                <p class="hot-prices">$34.99</p>
+                <a class="square-button add-to-cart" href="">Add to cart</a>
+              </figcaption>
+            </figure> <!-- /figure 03 -------------->
+            <!--figure 04----------------------->
+            <figure class="hot-items">
+              <img class="hot-images" src="imgs/waterfall-04.jpg" alt="waterfall-04">
+              <figcaption class="hot-desc">
+                <h3 class="hot-names">Stila Liquid Gold</h3>
+                <p class="hot-prices">$31.99</p>
+                <a class="square-button add-to-cart" href="">Add to cart</a>
+              </figcaption>
+            </figure> <!-- /figure 04 -------------->
+
+        </div>
+
+        <div class="hot-row">
+            <!--figure 05----------------------->
+            <figure class="hot-items">
+              <img class="hot-images" src="imgs/waterfall-05.jpg" alt="waterfall-05">
+              <figcaption class="hot-desc">
+                <h3 class="hot-names">Laura Mercier Loose Powder</h3>
+                <p class="hot-prices">$53.99</p>
+                <a class="square-button add-to-cart" href="">Add to cart</a>
+              </figcaption>
+            </figure> <!-- /figure 05 -------------->
+            <!--figure 06----------------------->
+            <figure class="hot-items">
+              <img class="hot-images" src="imgs/waterfall-06.jpg" alt="waterfall-06">
+              <figcaption class="hot-desc">
+                <h3 class="hot-names">Fenty Beauty Contour Stick</h3>
+                <p class="hot-prices">$34.99</p>
+                <a class="square-button add-to-cart" href="">Add to cart</a>
+              </figcaption>
+            </figure> <!-- /figure 06 -------------->
+            <!--figure 07----------------------->
+            <figure class="hot-items">
+              <img class="hot-images" src="imgs/waterfall-07.jpg" alt="waterfall-07">
+              <figcaption class="hot-desc">
+                <h3 class="hot-names">Makeup Forever Vibrant Pallete</h3>
+                <p class="hot-prices">$43.99</p>
+                <a class="square-button add-to-cart" href="">Add to cart</a>
+              </figcaption>
+            </figure> <!-- /figure 07 -------------->
+
+            <!--figure 08----------------------->
+            <figure class="hot-items">
+              <img class="hot-images" src="imgs/waterfall-08.jpg" alt="waterfall-08">
+              <figcaption class="hot-desc">
+                <h3 class="hot-names">Colourpop Lavender Palette</h3>
+                <p class="hot-prices">$21.99</p>
+                <a class="square-button add-to-cart" href="">Add to cart</a>
+              </figcaption>
+            </figure> <!-- /figure 08 -------------->
+
+            <!--gif (for fun lol)
+            <iframe style="padding: 0; transform: translateY(-10%)" class="hot-items" src="https://giphy.com/embed/10aCvxXbhM6WFW" width="100%" height="auto" frameBorder="0" ></iframe>-->
+
+        </div> <!-- /hot-row -------------->
+
+      </div> <!-- /hot-products -------------->
+      </section>
+
+      <!--Footer-
+      ===========================================-->
+
+      <footer>
+        <ul>
+          <li><a href="" class="footer-subheading">Contact</a></li>
+          <li><a href="">Website</a></li>
+          <li><a href="">Trial</a></li>
+          <li><a href="">Phone Number</a></li>
+          <li><a href="">Office</a></li>
+          <li><a href="">Google Maps</a></li>
+        </ul>
+        <ul>
+          <li><a href="" class="footer-subheading">Contact</a></li>
+          <li><a href="">Website</a></li>
+          <li><a href="">Trial</a></li>
+          <li><a href="">Phone Number</a></li>
+          <li><a href="">Office</a></li>
+          <li><a href="">Google Maps</a></li>
+        </ul>
+        <ul>
+          <li><a href="" class="footer-subheading">Contact</a></li>
+          <li><a href="">Website</a></li>
+          <li><a href="">Trial</a></li>
+          <li><a href="">Phone Number</a></li>
+          <li><a href="">Office</a></li>
+          <li><a href="">Google Maps</a></li>
+        </ul>
+
+        <p id="copyright">Copyright © 2018. you Ltd., All rights reserved.</p>
+      </footer>
+
+    </div> <!-- /container-all-except-nav ---------->
+
+
+<script src="javascript/master.js"></script>
+
+  </body>
+</html>
